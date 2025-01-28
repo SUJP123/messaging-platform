@@ -5,14 +5,12 @@ export class User {
     _id;
     name;
     username;
-    email;
     password;
 
-    constructor(name, username, email, password) {
+    constructor(name, username, password) {
         this._id = uuidv4();
         this.name = name;
         this.username = username;
-        this.email = email;
         this.password = password;
     }
 }
